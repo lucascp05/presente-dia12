@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Para você 💕</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400&display=swap" rel="stylesheet" />
+</head>
+<body class="principal">
+
+  <div class="coracoes-bg" aria-hidden="true"></div>
+
+  <button class="music-toggle" id="musicToggle" aria-label="pausar música">⏸</button>
+
+  <section class="hero">
+    <p class="eyebrow">feliz dia dos namorados</p>
+    <h1 class="hero-titulo">
+      Para Ana Clara,
+      <em>o amor da minha vida</em>
+    </h1>
+    <div class="separador-coracao">♡</div>
+  </section>
+
+  <!-- CONTADOR -->
+  <section class="contador-secao">
+    <p class="contador-label">juntos há</p>
+    <div class="contador-grid">
+      <div class="contador-bloco">
+        <span class="contador-num" id="anos">0</span>
+        <span class="contador-txt">anos</span>
+      </div>
+      <div class="contador-sep">♡</div>
+      <div class="contador-bloco">
+        <span class="contador-num" id="meses">0</span>
+        <span class="contador-txt">meses</span>
+      </div>
+      <div class="contador-sep">♡</div>
+      <div class="contador-bloco">
+        <span class="contador-num" id="dias">0</span>
+        <span class="contador-txt">dias</span>
+      </div>
+      <div class="contador-sep">♡</div>
+      <div class="contador-bloco">
+        <span class="contador-num" id="horas">0</span>
+        <span class="contador-txt">horas</span>
+      </div>
+      <div class="contador-sep">♡</div>
+      <div class="contador-bloco">
+        <span class="contador-num" id="minutos">0</span>
+        <span class="contador-txt">minutos</span>
+      </div>
+      <div class="contador-sep">♡</div>
+      <div class="contador-bloco">
+        <span class="contador-num" id="segundos">0</span>
+        <span class="contador-txt">segundos</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- NOSSA MÚSICA -->
+  <section class="musica-secao">
+    <p class="musica-label">nossa música</p>
+    <div class="musica-card">
+      <div class="musica-disco" id="disco">♪</div>
+      <div class="musica-info">
+        <p class="musica-nome">Aliança</p>
+        <p class="musica-artista">Tribalistas</p>
+      </div>
+      <div class="musica-ondas">
+        <span></span><span></span><span></span><span></span><span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIA -->
+  <section class="galeria" id="galeria">
+    <h2 class="secao-titulo">nossos momentos</h2>
+    <div class="fotos-grid">
+
+      <div class="foto-card" style="--rot: -2deg">
+        <img src="fotos/foto1.jpg" alt="Memória 1" loading="lazy" />
+        <p class="foto-legenda">voce desagua em mim e eu oceano</p>
+      </div>
+
+      <div class="foto-card" style="--rot: 1.5deg">
+        <img src="fotos/foto2.jpg" alt="Memória 2" loading="lazy" />
+        <p class="foto-legenda">amo te amar</p>
+      </div>
+
+      <div class="foto-card" style="--rot: -1deg">
+        <img src="fotos/foto3.jpg" alt="Memória 3" loading="lazy" />
+        <p class="foto-legenda">te amo tanto assim</p>
+      </div>
+
+      <div class="foto-card" style="--rot: 2deg">
+        <img src="fotos/foto4.jpg" alt="Memória 4" loading="lazy" />
+        <p class="foto-legenda">e sempre vou estar aqui</p>
+      </div>
+
+      <div class="foto-card" style="--rot: -1.5deg">
+        <img src="fotos/foto5.jpg" alt="Memória 5" loading="lazy" />
+        <p class="foto-legenda">cada momento com você</p>
+      </div>
+
+      <div class="foto-card" style="--rot: 1deg">
+        <img src="fotos/foto6.jpg" alt="Memória 6" loading="lazy" />
+        <p class="foto-legenda">guardo com carinho</p>
+      </div>
+
+      <div class="foto-card" style="--rot: -2.5deg">
+        <img src="fotos/foto7.jpg" alt="Memória 7" loading="lazy" />
+        <p class="foto-legenda">você faz tudo melhor</p>
+      </div>
+
+      <div class="foto-card" style="--rot: 2.5deg">
+        <img src="fotos/foto8.jpg" alt="Memória 8" loading="lazy" />
+        <p class="foto-legenda">sorte a minha</p>
+      </div>
+
+      <div class="foto-card" style="--rot: -1deg">
+        <img src="fotos/foto9.jpg" alt="Memória 9" loading="lazy" />
+        <p class="foto-legenda">que você existe</p>
+      </div>
+
+      <div class="foto-card" style="--rot: 1.5deg">
+        <img src="fotos/foto10.jpg" alt="Memória 10" loading="lazy" />
+        <p class="foto-legenda">te amo 💕</p>
+      </div>
+
+      <div class="foto-card" style="--rot: -2.5deg">
+        <img src="fotos/foto11.jpg" alt="Memória 11" loading="lazy" />
+        <p class="foto-legenda">minha vaqueira</p>
+      </div>
+
+      <div class="foto-card" style="--rot: 1.5deg">
+        <img src="fotos/foto12.jpg" alt="Memória 12" loading="lazy" />
+        <p class="foto-legenda">meu coração é seu pra sempre!</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CARTA -->
+  <section class="carta-secao">
+    <div class="carta">
+      <p class="carta-abertura">Meu amor,</p>
+      <p>
+        Escrever tudo que sinto por você em palavras seria impossível, mas vou tentar.
+        Desde o primeiro momento que te vi, algo mudou dentro de mim — de uma forma
+        que eu nunca esperava, e que hoje sou completamente grato por ter acontecido.
+      </p>
+      <p>
+        Você é a pessoa mais incrível que já conheci. A forma como você ri, como
+        você fala, como você me olha — guardo tudo isso com muito carinho. Cada
+        memória nossa é um tesouro que eu jamais vou trocar por nada.
+      </p>
+      <p>
+        Hoje e sempre, quero estar do seu lado. Feliz dia dos namorados, meu bem.
+      </p>
+      <p class="carta-assinatura">
+        com todo meu amor,<br />
+        <strong>Lucas</strong>
+      </p>
+    </div>
+  </section>
+
+  <footer class="rodape">
+    <p>feito com amor só pra você</p>
+  </footer>
+
+  <audio id="musica" loop>
+    <source src="musica/musica.mp3" type="audio/mpeg" />
+  </audio>
+
+  <script src="js/principal.js"></script>
+</body>
+</html>
