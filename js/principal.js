@@ -25,7 +25,10 @@ const toggle = document.getElementById('musicToggle');
 const tempo = parseFloat(sessionStorage.getItem('musicaTempo') || '0');
 musica.currentTime = tempo;
 musica.volume = 0.7;
-musica.play().catch(() => {});
+musica.load();
+musica.addEventListener('canplaythrough', () => {
+  musica.play().catch(() => {});
+}, { once: true });
 
 setInterval(() => {
   if (!musica.paused) sessionStorage.setItem('musicaTempo', musica.currentTime);
